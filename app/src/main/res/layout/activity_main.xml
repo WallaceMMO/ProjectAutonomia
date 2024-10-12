@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lblConsumo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consumo médio (km/l):"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtConsumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Ex: 12.5" />
+
+    <TextView
+        android:id="@+id/lblCombustivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantidade de combustível (l):"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/txtCombustivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Ex: 40" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Autonomia"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autonomia: "
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
